@@ -1,6 +1,6 @@
 import React from 'react'
 import { Home } from 'containers/Home'
-{% if not inputs.is_widget %}
+{% if inputs.add_routing %}
 import { Route, NavLink, Routes } from 'react-router-dom'
 {% endif %}
 
@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Styled.Container>
         <Home />
-        {% if not inputs.is_widget %}
+        {% if inputs.add_routing %}
         <Styled.Navigation>
           <NavLink to="home">Home</NavLink>
           <NavLink to="info">Info</NavLink>
@@ -19,11 +19,7 @@ const App = () => {
         <Routes>
           <Route
             path="/home"
-            element={
-              <Styled.Content>
-                Home Route
-              </Styled.Content>
-            }
+            element={<Styled.Content>Home Route</Styled.Content>}
           />
           <Route
             path="/info"

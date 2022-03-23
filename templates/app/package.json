@@ -1,5 +1,5 @@
 {
-  "name": "{{inputs.application_name|lower}}",
+  "name": "{{project_name|lower}}",
   "version": "1.0.0",
   "author": "OrangeStack",
   "license": "ISC",
@@ -22,7 +22,7 @@
     "history": "^5.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    {% if not inputs.is_widget %}
+    {% if inputs.add_routing %}
     "react-router-dom": "^6.0.0",
     {% endif %}
     "styled-components": "^5.3.0"
