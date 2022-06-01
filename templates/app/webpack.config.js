@@ -82,7 +82,7 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: '{{project_name|lower}}',
+      name: '{{project_name|lower|replace("-", "")|replace("_", "")}}',
       filename: 'remoteEntry.js',
       remotes: {},
       exposes: {
