@@ -1,3 +1,3 @@
 
 #### **Pré-requisitos**
-Para utilizar esse template, é necessário ter a stack web-react importada pelo cli do StackSpot que você pode baixar [**aqui**](https://stackspot.com.br/).
+Para utilizar este Template, é necessário ter a Stack web-react importada pelo **`STK CLI`** da StackSpot, que você pode baixar [**aqui**](https://stackspot.com.br/).

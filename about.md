@@ -1,1 +1,1 @@
-O template `web-react-app` cria uma aplicação da stack React.
+O Template **`web-react-app`** cria uma aplicação da Stack React.
