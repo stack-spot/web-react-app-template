@@ -37,3 +37,4 @@ https://github.com/stack-spot/web-react-app-template.git
 ```
   npm install
 ```
+
